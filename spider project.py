@@ -1,10 +1,8 @@
 from ultralytics import YOLO
 import cv2
 
-# Load YOLOv8 model
 model = YOLO('yolov8n.pt')
 
-# Replace this with a local path like 'video.mp4'
 video_path = '/Users/janhavi/Desktop/tigra_hunting.mov'
 cap = cv2.VideoCapture(video_path)
 
